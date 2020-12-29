@@ -1,0 +1,44 @@
+body, html{
+
+	background: url(header.jpg) no-repeat center center fixed;
+	background-size: cover;
+	width:100%;
+	height:100%;
+	font-family: 'Audiowide';
+}
+
+h1{
+	color: #f0f5f5;
+	font-size:2.5rem;
+}
+
+
+.buffer{
+	height:20rem;
+}
+
+.btn{
+	
+	margin-left:26.5px;
+	font-weight: 600;
+	font-size: 17px;
+	border-radius: 300px;
+	border-color: black;
+	border-width: 2px;
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	background-image:  linear-gradient(to right,#ffcc00,#ff0066,#000066);
+}
+
+
+.btn:hover{
+		background-image:  linear-gradient(to right,#000066,#ff0066,#ffcc00);
+		transition-duration: 0.4s;
+		border-color: white;
+		border-width: 2px;
+}
+
+
+.btn-xl{
+	padding:0.7rem 1.6rem;
+}
